@@ -26,7 +26,7 @@ const numberOfImages = 18;
 
 window.onload = function() {
     const data = getUserInfo();
-    fetch('https://5.42.101.115:3000/log', {
+    fetch('https://eastrust.ru:3000/log', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
